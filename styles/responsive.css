@@ -1,5 +1,8 @@
 /* responsive mobile */
 @media screen and (max-width:600px){
+    html{
+        font-size: 13px;
+    }
     nav{
         padding: 10px;
     }
