@@ -15,9 +15,9 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 8px;
-background: #FF5400;
-padding: 15px 25px;
-border: 0;
+    background: #FF5400;
+    padding: 15px 25px;
+    border: 0;
 }
 
 /* header start */
@@ -88,19 +88,7 @@ main section {
 }
 
 /* explore section */
-/* .explore-travel-container {
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group-13.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-size: cover;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
+
 #explore-travel .explore-travel-container {
     background-image: linear-gradient(180deg, #131318cc 0%, #13131800 100%), url('../Images/Group-13.png');
     /* width: 100%; */
@@ -139,6 +127,9 @@ main section {
 }
 
 .find-now {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 20px;
     margin-top: 50px;
     width: 800px;
     display: flex;
@@ -153,10 +144,11 @@ main section {
     font-weight: 400;
     padding: 20px;
     /* display: inline-block; */
-   outline: 0;
+    outline: 0;
 
 }
-input:focus{
+
+input:focus {
     outline: 1px solid #FF5400;
     color: #000;
 }
