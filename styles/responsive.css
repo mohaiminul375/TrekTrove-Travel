@@ -13,3 +13,15 @@
         display: block;
     }
 }
+/* tablet responsive */
+@media screen and (min-width:600px) and (max-width:992px){
+    nav{
+        padding: 10px;
+    }
+    nav>ul{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+}

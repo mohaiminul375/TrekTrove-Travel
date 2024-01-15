@@ -18,10 +18,7 @@ nav {
     padding: 50px 120px;
 }
 
-nav>ul {
-    display: flex;
-    gap: 40px;
-}
+
 
 .nav-title-container {
     display: flex;
@@ -40,6 +37,11 @@ nav .nav-title span {
     font-family: Mulish;
     font-weight: 800;
 }
+/* nav list items */
+nav>ul {
+    display: flex;
+    gap: 40px;
+}
 
 nav ul li {
     list-style: none;
@@ -47,14 +49,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color:  #424247;
+    color: #424247;
     font-size: 1rem;
     font-weight: 400;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #FF5400;
 }
-.hamburger-menu{
+
+.hamburger-menu {
     font-size: 2rem;
     display: none;
 }
