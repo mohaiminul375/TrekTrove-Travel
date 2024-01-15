@@ -47,6 +47,15 @@
    #newsletter .newsletter-img img{
     width: 100%;
    }
+   .newsletter-img{
+    position: relative;
+   }
+   .discount{
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    bottom: 33px;
+   }
 }
 /* tablet responsive */
 @media screen and (min-width:600px) and (max-width:992px){
@@ -72,5 +81,20 @@
        }
        .popular-tour .popular-tour-img img{
         width: 100%;
+       }
+       #newsletter{
+        flex-direction: column;
+       }
+       #newsletter .newsletter-img img{
+        width: 100%;
+       }
+       .newsletter-img{
+        position: relative;
+       }
+       .discount{
+        width: 100px;
+        position: absolute;
+        left: 100px;
+        bottom: 33px;
        }
 }
