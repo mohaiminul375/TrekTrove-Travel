@@ -15,8 +15,10 @@
     main{
         width: 100%;
     }
+   
     .explore-travel-container{
         background-position: 50%;
+        
     }
     .find-now{
         margin-top: 20px;
@@ -28,9 +30,17 @@
    .popular-tour{
     flex-direction: column;
     gap: 20px;
-   }
+}
+
    .popular-tour .popular-tour-img img{
-    width: 100%;
+    width: 100% ;
+   }
+   .chose-us-card-container{
+     flex-direction: column;
+     flex-wrap: nowrap;
+   }
+   .chose-us-card{
+    width: 300px;
    }
 }
 /* tablet responsive */
