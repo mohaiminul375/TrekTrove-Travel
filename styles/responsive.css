@@ -41,6 +41,12 @@
    #chose-us-3rd{
     left: 0;
    }
+   #newsletter{
+    flex-direction: column;
+   }
+   #newsletter .newsletter-img img{
+    width: 100%;
+   }
 }
 /* tablet responsive */
 @media screen and (min-width:600px) and (max-width:992px){

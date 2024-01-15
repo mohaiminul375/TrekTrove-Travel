@@ -241,3 +241,43 @@ input:focus, select:focus {
 }
 
 /* chose us section end */
+
+
+
+/* newsletter start */
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-content {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-content h3 {
+    color: #131318;
+    font-size: 1.50rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.newsletter-content p {
+    margin-bottom: 24px;
+}
+
+.newsletter-content form {
+    margin-top: 30px;
+}
+
+.newsletter-content form input {
+    display: block;
+    margin-bottom: 20px;
+    width: 80%;
+    padding: 16px 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
