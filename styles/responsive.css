@@ -1,0 +1,12 @@
+/* responsive mobile */
+@media screen and (max-width:600px){
+    nav{
+        padding: 10px;
+    }
+    nav>ul{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+}
