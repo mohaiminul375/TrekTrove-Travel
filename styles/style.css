@@ -20,8 +20,21 @@
     border: 0;
 }
 
+.section-heading {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
 /* header start */
 /* nav start */
+.description {
+    color: #131318b3;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -151,4 +164,19 @@ main section {
 input:focus {
     outline: 1px solid #FF5400;
     color: #000;
+}
+
+/* explore section end */
+.popular-tour {
+    display: flex;
+    align-items: center;
+}
+.popular-tour .popular-tour-content{
+    padding: 0 30px;
+}
+.popular-tour-content>ul{
+    margin-top: 30px;
+}
+.popular-tour-content>ul>li{
+    margin-top: 50px;
 }
