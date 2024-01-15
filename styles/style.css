@@ -204,29 +204,40 @@ input:focus, select:focus {
 
 /* chose us section start */
 
-.chose-us-card-container{
+.chose-us-card-container {
     margin-top: 50px;
-    /* display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 24px; */
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+
 }
+
 .chose-us-card {
-    width: 500px;
     padding: 30px;
     border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.20);
-    background: rgba(251, 181, 99, 0.05);
 }
-.chose-us-card h4{
+
+.chose-us-card h4 {
     margin: 30px 0 20px;
     font-size: 1.50rem;
     font-weight: 800;
 }
-#chose-us-3rd{
-   margin: 0 auto;
- }
+
+#chose-us-1st {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+#chose-us-2nd {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#chose-us-3rd {
+    position: relative;
+    left: 300px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
 
 /* chose us section end */

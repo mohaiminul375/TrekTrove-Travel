@@ -36,11 +36,10 @@
     width: 100% ;
    }
    .chose-us-card-container{
-     flex-direction: column;
-     flex-wrap: nowrap;
+    grid-template-columns: 1fr;
    }
-   .chose-us-card{
-    width: 300px;
+   #chose-us-3rd{
+    left: 0;
    }
 }
 /* tablet responsive */
