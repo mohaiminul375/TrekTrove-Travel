@@ -294,13 +294,39 @@ input:focus, select:focus {
 
 #chose-us-3rd {
     position: relative;
-    left: 300px;
+    left: 50%;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
 
 /* chose us section end */
+/* perfect place start */
+#perfect-place {
+    display: flex;
+    align-items: center;
+}
 
+.perfect-place-content {
+    padding: 0 20px;
+}
+
+.perfect-place-content h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.perfect-place-content ul{
+    margin-top: 15px;
+}
+.perfect-place-content ul li{
+    margin-top: 20px;
+    /* list-style: none; */
+    font-weight: 800;
+}
+.perfect-place-video iframe{
+    border-radius: 10px;
+}
+/* perfect place end */
 
 
 /* newsletter start */

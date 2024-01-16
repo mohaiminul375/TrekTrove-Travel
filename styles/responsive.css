@@ -83,6 +83,14 @@
    #photo-7 {
     grid-column: 1 / span 12;
 }
+#perfect-place{
+    flex-direction: column;
+    gap: 20px;
+}
+#perfect-place iframe{
+    width: 100%;
+    
+}
 }
 /* tablet responsive */
 @media screen and (min-width:600px) and (max-width:992px){
@@ -124,4 +132,9 @@
         left: 100px;
         bottom: 33px;
        }
+       #perfect-place{
+        flex-direction: column;
+        gap: 20px;
+    }
+   
 }
