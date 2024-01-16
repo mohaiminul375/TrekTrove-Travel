@@ -1,139 +1,185 @@
 /* responsive mobile */
-@media screen and (max-width:600px){
-    html{
+@media screen and (max-width:600px) {
+    html {
         font-size: 13px;
     }
-    nav{
+
+    nav {
         padding: 10px;
     }
-    nav>ul{
+
+    nav>ul {
         display: none;
     }
-    .hamburger-menu{
+
+    .hamburger-menu {
         display: block;
     }
-    main{
+
+    main {
         width: 100%;
     }
-   
-    .explore-travel-container{
-        background-position: 50%;
-        
-    }
-    .find-now{
-        margin-top: 20px;
-        flex-direction: column;
-        width: 80%;
-        gap: 1.50rem;
-        padding: 10px;
-    }
-   .popular-tour{
-    flex-direction: column;
-    gap: 20px;
-}
 
-   .popular-tour .popular-tour-img img{
-    width: 100% ;
-   }
-   .chose-us-card-container{
-    grid-template-columns: 1fr;
-   }
-   #chose-us-3rd{
-    left: 0;
-   }
-   #newsletter{
-    flex-direction: column;
-   }
-   #newsletter .newsletter-img img{
-    width: 100%;
-   }
-   .newsletter-img{
-    position: relative;
-   }
-   .discount{
-    width: 100px;
-    bottom: 10%;
-   }
-   .gallery-container{
-    grid-template-columns: 1fr;
-   }
-   .photo{
-    grid-column: 1/span 12;
-   }
-   #photo-1 {
-    grid-column: 1 / span 12;
-}
-   #photo-2 {
-    grid-column: 1 / span 12;
-}
-   #photo-3 {
-    grid-column: 1 / span 12;
-}
-   #photo-4 {
-    grid-column: 1 / span 12;
-}
-   #photo-5 {
-    grid-column: 1 / span 12;
-}
-   #photo-6 {
-    grid-column: 1 / span 12;
-}
-   #photo-7 {
-    grid-column: 1 / span 12;
-}
-#perfect-place{
-    flex-direction: column;
-    gap: 20px;
-}
-#perfect-place iframe{
-    width: 100%;
-    
-}
-.customer-review-card{
-    grid-template-columns: 1fr;
-}
-}
-/* tablet responsive */
-@media screen and (min-width:600px) and (max-width:992px){
-    nav{
-        padding: 10px;
+    .explore-travel-container {
+        background-position: 50%;
+
     }
-    nav>ul{
-        display: none;
-    }
-    .hamburger-menu{
-        display: block;
-    }
-    .find-now{
+
+    .find-now {
         margin-top: 20px;
         flex-direction: column;
         width: 80%;
         gap: 1.50rem;
         padding: 10px;
     }
-    .popular-tour{
+
+    .popular-tour {
         flex-direction: column;
         gap: 20px;
-       }
-       .popular-tour .popular-tour-img img{
+    }
+
+    .popular-tour .popular-tour-img img {
         width: 100%;
-       }
-       #newsletter{
+    }
+
+    .chose-us-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    #chose-us-3rd {
+        left: 0;
+    }
+
+    #newsletter {
         flex-direction: column;
-       }
-       #newsletter .newsletter-img img{
+    }
+
+    #newsletter .newsletter-img img {
         width: 100%;
-       }
-       .newsletter-img{
+    }
+
+    .newsletter-img {
         position: relative;
-       }
-       /* .discount{
+    }
+
+    .discount {
+        width: 100px;
+        bottom: 10%;
+    }
+
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+
+    .photo {
+        grid-column: 1/span 12;
+    }
+
+    #photo-1 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-2 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-3 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-4 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-5 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-6 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-7 {
+        grid-column: 1 / span 12;
+    }
+
+    #perfect-place {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #perfect-place iframe {
+        width: 100%;
+
+    }
+    .discount-banner {
+        justify-content: center;
+    }
+
+    .discount-banner-container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .customer-review-card {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* tablet responsive */
+@media screen and (min-width:600px) and (max-width:992px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav>ul {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .find-now {
+        margin-top: 20px;
+        flex-direction: column;
+        width: 80%;
+        gap: 1.50rem;
+        padding: 10px;
+    }
+
+    .popular-tour {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .popular-tour .popular-tour-img img {
+        width: 100%;
+    }
+
+    .discount-banner {
+        justify-content: center;
+    }
+
+
+    #newsletter {
+        flex-direction: column;
+    }
+
+    #newsletter .newsletter-img img {
+        width: 100%;
+    }
+
+    .newsletter-img {
+        position: relative;
+    }
+
+    /* .discount{
         width: 100px;
         bottom: 10%;
        } */
-       #perfect-place{
+    #perfect-place {
         flex-direction: column;
         gap: 20px;
     }
-   
+
 }
