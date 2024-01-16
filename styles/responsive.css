@@ -1,9 +1,10 @@
-/* responsive mobile */
+/* responsive mobile  max-width:600px*/
 @media screen and (max-width:600px) {
     html {
         font-size: 13px;
     }
 
+    /* navbar */
     nav {
         padding: 10px;
     }
@@ -16,10 +17,12 @@
         display: block;
     }
 
+    /* main */
     main {
         width: 100%;
     }
 
+    /* explore travel section */
     .explore-travel-container {
         background-position: 50%;
 
@@ -33,6 +36,7 @@
         padding: 10px;
     }
 
+    /* popular tour section */
     .popular-tour {
         flex-direction: column;
         gap: 20px;
@@ -42,30 +46,7 @@
         width: 100%;
     }
 
-    .chose-us-card-container {
-        grid-template-columns: 1fr;
-    }
-
-    #chose-us-3rd {
-        left: 0;
-    }
-
-    #newsletter {
-        flex-direction: column;
-    }
-
-    #newsletter .newsletter-img img {
-        width: 100%;
-    }
-
-    .newsletter-img {
-        position: relative;
-    }
-
-    .discount {
-        width: 100px;
-        bottom: 10%;
-    }
+    /* chose destination */
 
     .gallery-container {
         grid-template-columns: 1fr;
@@ -103,6 +84,31 @@
         grid-column: 1 / span 12;
     }
 
+    /* chose us section */
+    .chose-us-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    #chose-us-3rd {
+        left: 0;
+    }
+
+    /* deals and discount */
+    .discount-banner-right, .discount-banner-left {
+        justify-content: center;
+    }
+
+    .discount-banner-container, .discount-banner-left>.discount-banner-container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /* customer review */
+    .customer-review-card {
+        grid-template-columns: 1fr;
+    }
+
+    /* perfect place */
     #perfect-place {
         flex-direction: column;
         gap: 20px;
@@ -110,23 +116,32 @@
 
     #perfect-place iframe {
         width: 100%;
+    }
 
+    /* newsletter */
+    #newsletter {
+        flex-direction: column;
     }
-    .discount-banner-right,.discount-banner-left {
-        justify-content: center;
+
+    #newsletter .newsletter-img img {
+        width: 100%;
     }
-    
-    .discount-banner-container,.discount-banner-left>.discount-banner-container {
-        margin-right: 10px;
-        margin-left: 10px;
+
+    .newsletter-img {
+        position: relative;
     }
-    .customer-review-card {
-        grid-template-columns: 1fr;
+
+    #newsletter .discount {
+        width: 100px;
+        bottom: 10%;
     }
+
 }
 
-/* tablet responsive */
+/* tablet responsive from 600px to 992px*/
 @media screen and (min-width:600px) and (max-width:992px) {
+
+    /* navbar */
     nav {
         padding: 10px;
     }
@@ -147,6 +162,7 @@
         padding: 10px;
     }
 
+    /* popular tour */
     .popular-tour {
         flex-direction: column;
         gap: 20px;
@@ -156,11 +172,17 @@
         width: 100%;
     }
 
-    .discount-banner-right,.discount-banner-left {
+    /* deals and discount */
+    .discount-banner-right, .discount-banner-left {
         justify-content: center;
     }
 
-
+    /* perfect place */
+    #perfect-place {
+        flex-direction: column;
+        gap: 20px;
+    }
+     /* newsletter */
     #newsletter {
         flex-direction: column;
     }
@@ -171,15 +193,6 @@
 
     .newsletter-img {
         position: relative;
-    }
-
-    /* .discount{
-        width: 100px;
-        bottom: 10%;
-       } */
-    #perfect-place {
-        flex-direction: column;
-        gap: 20px;
     }
 
 }
