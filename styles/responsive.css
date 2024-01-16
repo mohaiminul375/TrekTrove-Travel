@@ -52,9 +52,7 @@
    }
    .discount{
     width: 100px;
-    position: absolute;
-    left: 100px;
-    bottom: 33px;
+    bottom: 10%;
    }
    .gallery-container{
     grid-template-columns: 1fr;
@@ -129,12 +127,10 @@
        .newsletter-img{
         position: relative;
        }
-       .discount{
+       /* .discount{
         width: 100px;
-        position: absolute;
-        left: 100px;
-        bottom: 33px;
-       }
+        bottom: 10%;
+       } */
        #perfect-place{
         flex-direction: column;
         gap: 20px;

@@ -408,21 +408,21 @@ input:focus, select:focus {
     color: white;
     border-radius: 16px;
     background: #FF5400;
-    padding: 30px;
+    padding: 1.25rem;
 
     width: 200px;
     position: absolute;
     transform: rotate(-30deg);
-    bottom: 60px;
-    left: 350px;
+    top: 60%;
+    right: 5%;
 }
 
 .discount h5 {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .discount p {
-    font-size: 2rem;
+    font-size: 1.80rem;
 }
 
 /* newsletter end */
