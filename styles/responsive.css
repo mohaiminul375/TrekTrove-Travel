@@ -112,11 +112,11 @@
         width: 100%;
 
     }
-    .discount-banner {
+    .discount-banner-right,.discount-banner-left {
         justify-content: center;
     }
-
-    .discount-banner-container {
+    
+    .discount-banner-container,.discount-banner-left>.discount-banner-container {
         margin-right: 10px;
         margin-left: 10px;
     }
@@ -156,7 +156,7 @@
         width: 100%;
     }
 
-    .discount-banner {
+    .discount-banner-right,.discount-banner-left {
         justify-content: center;
     }
 
