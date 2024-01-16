@@ -275,7 +275,8 @@ input:focus, select:focus {
     padding: 30px;
     border-radius: 16px;
 }
-.chose-us-card:hover{
+
+.chose-us-card:hover {
     box-shadow: 5px 5px 5px #424247;
 }
 
@@ -303,44 +304,108 @@ input:focus, select:focus {
 }
 
 /* chose us section end */
+
+/* deals and discount start */
+#deals-discount {
+    margin: 0 auto;
+}
+
+.discount-banner {
+    margin-top: 50px;
+    background-image: url('../Images/Group-39.png');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.discount-banner-container .card-icon{
+    display: flex;
+}
+.discount-banner-container .card-icon p{
+    font-size: 1rem;
+}
+.discount-banner-container .card-icon i{
+    color: #FF5400;
+}
+.discount-banner-container {
+    margin-right: 50px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.568);
+
+}
+
+.discount-banner-container h3 {
+    color: #131318;
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.discount-banner-container p {
+    margin: 16px 0;
+    width: 50%;
+}
+
+.discount-banner-container h5 {
+    margin:16px 0;
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+/* deals and discount end */
+
 /* customer review  start*/
-.customer-review-card{
+.customer-review-card {
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
-.review-card *{
+
+.review-card * {
     margin-bottom: 10px;
 }
-.review-card{
+
+.review-card {
     padding: 40px 10px;
     border-radius: 10px;
     /* box-shadow: 5px 5px 5px #424247; */
-    box-shadow: 5px 5px 5px #4242472f; 
+    box-shadow: 5px 5px 5px #4242472f;
     background-color: rgba(250, 235, 215, 0.377);
 }
-.review-card:hover{
-   box-shadow: 5px 5px 5px #424247; 
-    
+
+.review-card:hover {
+    box-shadow: 5px 5px 5px #424247;
+
 
 }
-.review-card h4{
+
+.review-card h4 {
     font-size: 1.50rem;
 }
-.review-card h5{
- font-size: 1.25rem;
- color: #424247;
+
+.review-card h5 {
+    font-size: 1.25rem;
+    color: #424247;
 }
-.review-card .profile-img{
+
+.review-card .profile-img {
     display: flex;
     justify-content: center;
 }
-.review-card img{
-   
+
+.review-card img {
+
     border-radius: 50%;
     width: 30%;
 }
+
 /* perfect place start */
 #perfect-place {
     display: flex;
@@ -356,17 +421,21 @@ input:focus, select:focus {
     font-weight: 800;
     margin-bottom: 16px;
 }
-.perfect-place-content ul{
+
+.perfect-place-content ul {
     margin-top: 15px;
 }
-.perfect-place-content ul li{
+
+.perfect-place-content ul li {
     margin-top: 20px;
     /* list-style: none; */
     font-weight: 800;
 }
-.perfect-place-video iframe{
+
+.perfect-place-video iframe {
     border-radius: 10px;
 }
+
 /* perfect place end */
 
 
