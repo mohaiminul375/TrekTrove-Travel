@@ -33,13 +33,15 @@
     margin: 0 auto;
 }
 
-/* header start */
-/* nav start */
 .description {
     color: #131318b3;
     font-size: 1rem;
     font-weight: 400;
 }
+
+/* common style end */
+/* header start */
+/* nav start */
 
 nav {
     display: flex;
@@ -47,8 +49,6 @@ nav {
     align-items: center;
     padding: 50px 120px;
 }
-
-
 
 .nav-title-container {
     display: flex;
@@ -97,6 +97,7 @@ nav ul li a:hover {
 /* nav end */
 
 /* header end */
+
 /* main start */
 main {
     max-width: 1340px;
@@ -125,7 +126,6 @@ main section {
     justify-content: center;
     align-items: center;
     height: 100%;
-
 }
 
 .explore-travel-container .explore-content {
@@ -155,8 +155,6 @@ main section {
     width: 800px;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .find-now input, select {
@@ -167,7 +165,6 @@ main section {
     border-radius: 8px;
     border: none;
     outline: 0;
-
 }
 
 input:focus, select:focus {
@@ -212,8 +209,6 @@ input:focus, select:focus {
     object-fit: cover;
     border-radius: 8px;
 }
-
-
 
 .photo {
     position: relative;
@@ -267,7 +262,6 @@ input:focus, select:focus {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
-
 }
 
 .chose-us-card {
@@ -308,6 +302,7 @@ input:focus, select:focus {
 #deals-discount {
     /* margin: 0 auto; */
 }
+
 /* discount banner right */
 .discount-banner-right {
     margin-top: 50px;
@@ -321,7 +316,8 @@ input:focus, select:focus {
     justify-content: end;
     align-items: center;
 }
-.discount-banner-left{
+
+.discount-banner-left {
     margin-top: 50px;
     background-image: url('../Images/Group-40.png');
     width: 100%;
@@ -333,26 +329,31 @@ input:focus, select:focus {
     justify-content: start;
     align-items: center;
 }
-.discount-banner-left>.discount-banner-container{
+
+.discount-banner-left>.discount-banner-container {
     margin-left: 50px;
 }
-.discount-banner-container .card-icon{
+
+.discount-banner-container .card-icon {
     display: flex;
 }
-.discount-banner-container .card-icon p{
+
+.discount-banner-container .card-icon p {
     font-size: 1rem;
 }
-.discount-banner-container .card-icon i{
+
+.discount-banner-container .card-icon i {
     color: #FF5400;
 }
+
 .discount-banner-container {
     margin-right: 50px;
     padding: 30px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.568);
-
 }
+
 /* left align container */
 
 .discount-banner-container h3 {
@@ -368,7 +369,7 @@ input:focus, select:focus {
 }
 
 .discount-banner-container h5 {
-    margin:16px 0;
+    margin: 16px 0;
     color: #FF5400;
     font-size: 1.25rem;
     font-weight: 800;
@@ -398,8 +399,6 @@ input:focus, select:focus {
 
 .review-card:hover {
     box-shadow: 5px 5px 5px #424247;
-
-
 }
 
 .review-card h4 {
@@ -417,7 +416,6 @@ input:focus, select:focus {
 }
 
 .review-card img {
-
     border-radius: 50%;
     width: 30%;
 }
@@ -444,7 +442,6 @@ input:focus, select:focus {
 
 .perfect-place-content ul li {
     margin-top: 20px;
-    /* list-style: none; */
     font-weight: 800;
 }
 
@@ -453,7 +450,6 @@ input:focus, select:focus {
 }
 
 /* perfect place end */
-
 
 /* newsletter start */
 
@@ -503,7 +499,6 @@ input:focus, select:focus {
     border-radius: 16px;
     background: #FF5400;
     padding: 1.25rem;
-
     width: 200px;
     position: absolute;
     transform: rotate(-30deg);
@@ -561,3 +556,4 @@ footer {
     text-decoration: none;
     font-size: 2rem;
 }
+/* footer end */
