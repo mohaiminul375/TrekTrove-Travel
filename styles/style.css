@@ -300,6 +300,38 @@ input:focus, select:focus {
 }
 
 /* chose us section end */
+/* customer review  start*/
+.customer-review-card{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.review-card *{
+    margin-bottom: 10px;
+}
+.review-card{
+    padding: 40px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #424247;
+    background-color: rgba(250, 235, 215, 0.377);
+}
+.review-card h4{
+    font-size: 1.50rem;
+}
+.review-card h5{
+ font-size: 1.25rem;
+ color: #424247;
+}
+.review-card .profile-img{
+    display: flex;
+    justify-content: center;
+}
+.review-card img{
+   
+    border-radius: 50%;
+    width: 30%;
+}
 /* perfect place start */
 #perfect-place {
     display: flex;

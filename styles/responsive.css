@@ -91,6 +91,9 @@
     width: 100%;
     
 }
+.customer-review-card{
+    grid-template-columns: 1fr;
+}
 }
 /* tablet responsive */
 @media screen and (min-width:600px) and (max-width:992px){
